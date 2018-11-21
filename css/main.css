@@ -42,7 +42,12 @@
 .name-centered{
     font-size: 80px;
     color: #ececec;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Karla', sans-serif;
     font-weight: bold;
     text-align: center;
+}
+
+section{
+    max-width: 80%;
+    margin: 0 auto;
 }
