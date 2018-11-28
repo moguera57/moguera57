@@ -5,26 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-    <script src="js/main.js"></script>
-    
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
 </head>
 <body>
     
     <nav class="sticky-nav">
         <ul>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a class="menu-item" href="#">Portfolio</a></li>
+            <li><a class="menu-item" href="#">Resume</a></li>
+            <li><a class="menu-item" href="#">Contact Me</a></li>
         </ul>
     </nav>
 
     <div class="full-page-container">
-        <h1 class="screen-centered-header name-centered">Joseph Banwart</h1>
+        <div class="landing screen-centered-header"> 
+            <h1 class="init-title name-centered">Joseph Banwart</h1>
+            <h2 class="init-title job-centered">Web Designer | Web Developer</h2> 
+
+            <h1 class="scroll-title name-centered scroll-color-change hidden">My Work Includes</h1>
+        </div>
     </div>
 
     <section>
@@ -35,6 +40,29 @@
         <p>Aliquam dictum neque non turpis hendrerit imperdiet. Phasellus venenatis augue nisl, quis vulputate tortor posuere non. Praesent ultrices mi nec vestibulum lobortis. Sed quis tellus a lorem bibendum dignissim in vel elit. Proin id bibendum augue, sit amet venenatis mauris. Sed ac nulla rutrum, cursus turpis quis, pretium sapien. Nulla faucibus sed ante eget tristique. Mauris nec sagittis eros. Morbi tincidunt metus neque, non vestibulum risus blandit in. Integer volutpat, mi vel laoreet congue, diam nibh porta sapien, eget mattis lectus neque ut ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vitae enim eleifend, posuere arcu id, ornare risus.
         </p>
     </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-item cutsew">
+                <h2>Cut/Sew</h2>
+                <p>Role: Web Designer, Web Devloper, System Administrator</p>
+                <p>Technologies used: Shopify, CSS, HTML, JavaScript</p>
+            </div>
+            <div class="portfolio-item cityoforlando">
+                <h2>City of Orlando</h2>
+                <p>Role: Web Developer, Content Manager</p>
+                <p>Technologies used: Wordpress, HTML, CSS, JavaScript, PHP, ajax, jQuery, RESTful APIs</p>
+            </div>
+            <div class="portfolio-item thisisorlando">
+                <h2>This is Orlando</h2>
+                <p>Role: Web Designer, Web Developer</p>
+                <p>Technologies used: React</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 </html>
