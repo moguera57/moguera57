@@ -50,8 +50,13 @@ p{
 }
 
 .scroll-menu-bg{
-    /* background-color: #fff; */
+    background-color: #ddd;
+    border-radius: 25px;
     transition: .3s;
+}
+
+.scroll-menu-bg ul li{
+    border-right: solid 1px #464646;
 }
 
 .scroll-color-change{
@@ -65,7 +70,7 @@ p{
 
 .screen-centered-header{
     position: absolute;
-    width: 70%;
+    width: 80%;
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -90,6 +95,25 @@ p{
 
 section{
     margin: 0 auto;
+    max-width: 1080px;
     margin-top: 50px;
-    max-width: 70%;
+    width: 90%;
+}
+
+.portfolio-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolio-item{
+    width: 290px;
+    height: 400px;
+    background-color: #ececec;
+}
+
+@media screen and (max-width: 800px){
+    .portfolio-item{
+        width: 100%;
+    }
 }
