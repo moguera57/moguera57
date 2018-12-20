@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,56 +14,133 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 
 </head>
+
 <body>
-    
+
     <nav class="sticky-nav">
         <ul>
-            <li><a class="menu-item" href="#">Portfolio</a></li>
+            <li><a class="menu-item" href="#portfolio">Portfolio</a></li>
+            <li><a class="menu-item" href="#contact">Contact Me</a></li>
             <li><a class="menu-item" href="#">Resume</a></li>
-            <li><a class="menu-item" href="#">Contact Me</a></li>
         </ul>
     </nav>
 
     <div class="full-page-container">
-        <div class="landing screen-centered-header"> 
+        <div class="landing screen-centered-header">
             <h1 class="init-title name-centered">Joseph Banwart</h1>
-            <h2 class="init-title job-centered">Web Designer | Web Developer</h2> 
+            <h2 class="init-title job-centered">Web Designer | Web Developer</h2>
 
             <h1 class="scroll-title name-centered scroll-color-change hidden">My Work Includes</h1>
         </div>
     </div>
 
     <section>
-        <p>This is Portfolio content</p>
+        <h1>This is an about me section</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum semper vestibulum. Ut et tellus ullamcorper, molestie lacus quis, posuere orci. Quisque finibus posuere nisl sed lacinia. Praesent gravida consectetur velit non bibendum. Quisque convallis, odio quis egestas consequat, felis magna interdum quam, in aliquet massa diam a ante. Nulla ut metus placerat, mattis diam vel, hendrerit nisi. Aenean vitae felis tempus, varius mauris in, convallis ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In elementum auctor fringilla. Pellentesque auctor libero nisl, a scelerisque justo placerat vitae. Vestibulum id gravida arcu. Quisque eu dolor quis purus tempor ornare. Morbi ipsum libero, varius ac arcu sit amet, laoreet posuere lectus. Sed interdum felis vitae arcu gravida, lacinia aliquam sapien tempor. Aenean vel purus facilisis, mollis quam eget, condimentum magna. Aliquam et ante fringilla dui accumsan aliquam vitae a risus.</p>
+        <img class="about-img" src="https://placekitten.com/400/400">
 
-        <p>Aliquam dictum neque non turpis hendrerit imperdiet. Phasellus venenatis augue nisl, quis vulputate tortor posuere non. Praesent ultrices mi nec vestibulum lobortis. Sed quis tellus a lorem bibendum dignissim in vel elit. Proin id bibendum augue, sit amet venenatis mauris. Sed ac nulla rutrum, cursus turpis quis, pretium sapien. Nulla faucibus sed ante eget tristique. Mauris nec sagittis eros. Morbi tincidunt metus neque, non vestibulum risus blandit in. Integer volutpat, mi vel laoreet congue, diam nibh porta sapien, eget mattis lectus neque ut ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vitae enim eleifend, posuere arcu id, ornare risus.
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum semper vestibulum. Ut et tellus
+            ullamcorper, molestie lacus quis, posuere orci. Quisque finibus posuere nisl sed lacinia. Praesent gravida
+            consectetur velit non bibendum. Quisque convallis, odio quis egestas consequat, felis magna interdum quam,
+            in aliquet massa diam a ante. Nulla ut metus placerat, mattis diam vel, hendrerit nisi. Aenean vitae felis
+            tempus, varius mauris in, convallis ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; In elementum auctor fringilla. Pellentesque auctor libero nisl, a scelerisque justo
+            placerat vitae. Vestibulum id gravida arcu. Quisque eu dolor quis purus tempor ornare. Morbi ipsum libero,
+            varius ac arcu sit amet, laoreet posuere lectus. Sed interdum felis vitae arcu gravida, lacinia aliquam
+            sapien tempor. Aenean vel purus facilisis, mollis quam eget, condimentum magna. Aliquam et ante fringilla
+            dui accumsan aliquam vitae a risus.</p>
+
+        <p>Aliquam dictum neque non turpis hendrerit imperdiet. Phasellus venenatis augue nisl, quis vulputate tortor
+            posuere non. Praesent ultrices mi nec vestibulum lobortis. Sed quis tellus a lorem bibendum dignissim in
+            vel elit. Proin id bibendum augue, sit amet venenatis mauris. Sed ac nulla rutrum, cursus turpis quis,
+            pretium sapien. Nulla faucibus sed ante eget tristique. Mauris nec sagittis eros. Morbi tincidunt metus
+            neque, non vestibulum risus blandit in. Integer volutpat, mi vel laoreet congue, diam nibh porta sapien,
+            eget mattis lectus neque ut ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Sed vitae enim eleifend, posuere arcu id, ornare risus.
         </p>
     </section>
 
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
+        <h1>This is Portfolio Content</h1>
         <div class="portfolio-container">
             <div class="portfolio-item cutsew">
-                <h2>Cut/Sew</h2>
-                <p>Role: Web Designer, Web Devloper, System Administrator</p>
-                <p>Technologies used: Shopify, CSS, HTML, JavaScript</p>
+                <div class="portfolio-item-wrapper">
+                    <img src="https://placekitten.com/300/300">
+                    <h2>Cut/Sew</h2>
+                    <p>Role: Web Designer, Web Devloper, System Administrator</p>
+                    <p>Technologies used: Shopify, CSS, HTML, JavaScript</p>
+                </div>
             </div>
             <div class="portfolio-item cityoforlando">
-                <h2>City of Orlando</h2>
-                <p>Role: Web Developer, Content Manager</p>
-                <p>Technologies used: Wordpress, HTML, CSS, JavaScript, PHP, ajax, jQuery, RESTful APIs</p>
+                <div class="portfolio-item-wrapper">
+                    <img src="https://placekitten.com/300/300">
+                    <h2>City of Orlando</h2>
+                    <p>Role: Web Developer, Content Manager</p>
+                    <p>Technologies used: Wordpress, HTML, CSS, JavaScript, PHP, ajax, jQuery, RESTful APIs</p>
+                </div>
             </div>
             <div class="portfolio-item thisisorlando">
-                <h2>This is Orlando</h2>
-                <p>Role: Web Designer, Web Developer</p>
-                <p>Technologies used: React</p>
+                <div class="portfolio-item-wrapper">
+                    <img src="https://placekitten.com/300/300">
+                    <h2>This is Orlando</h2>
+                    <p>Role: Web Designer, Web Developer</p>
+                    <p>Technologies used: React</p>
+                </div>
+            </div>
+            <div class="portfolio-item cutsew">
+                <div class="portfolio-item-wrapper">
+                    <img src="https://placekitten.com/300/300">
+                    <h2>Cut/Sew</h2>
+                    <p>Role: Web Designer, Web Devloper, System Administrator</p>
+                    <p>Technologies used: Shopify, CSS, HTML, JavaScript</p>
+                </div>
+            </div>
+            <div class="portfolio-item cityoforlando">
+                <div class="portfolio-item-wrapper">
+                    <img src="https://placekitten.com/300/300">
+                    <h2>City of Orlando</h2>
+                    <p>Role: Web Developer, Content Manager</p>
+                    <p>Technologies used: Wordpress, HTML, CSS, JavaScript, PHP, ajax, jQuery, RESTful APIs</p>
+                </div>
+            </div>
+            <div class="portfolio-item thisisorlando">
+                <div class="portfolio-item-wrapper">
+                    <img src="https://placekitten.com/300/300">
+                    <h2>This is Orlando</h2>
+                    <p>Role: Web Designer, Web Developer</p>
+                    <p>Technologies used: React</p>
+                </div>
             </div>
         </div>
     </section>
+
+    <section id="contact">
+        <h1>Contact Form</h1>
+
+        <div class="contact-form">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input cl√ass="btn" type="submit" value="Submit">
+        
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Copyright Joseph Banwart 2018</p>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>
+
 </html>

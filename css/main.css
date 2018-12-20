@@ -4,6 +4,35 @@ body{
 
 p{
     font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 22px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Karla";
+}
+
+h1{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 20px 0px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+section h1:after{
+        content:'';
+        position:absolute;
+        width:150px;
+        border-bottom: 1px #444 solid;
+        left: 0;
+        bottom:0;
+        margin:auto;
 }
 
 .sticky-nav{
@@ -41,7 +70,7 @@ p{
 .full-page-container{
     position: relative;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .bg-change{
@@ -100,6 +129,12 @@ section{
     width: 90%;
 }
 
+.about-img{
+    float: left;
+    width: 200px;
+    padding: 10px;
+}
+
 .portfolio-container{
     display: flex;
     justify-content: space-between;
@@ -107,13 +142,65 @@ section{
 }
 
 .portfolio-item{
+    margin-bottom: 20px;
     width: 290px;
-    height: 400px;
     background-color: #ececec;
+}
+
+.portfolio-item-wrapper{
+    padding: 10px;
+}
+
+.portfolio-item h2{
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.portfolio-item img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label{
+    font-size: 20px;
+    padding: 10px 0px;
+    font-family: "Open Sans";
+}
+
+.btn{
+    width: 150px;
+    padding: 30px 0px;
+    margin-top: 20px;
+}
+
+footer{
+    padding: 20px 0px;
+    background-color: #ddd;
+    width: 100%;
+    margin-top: 100px;
+}
+
+footer p{
+    text-align: center;
+}
+
+@media screen and (max-width: 970px){
+    .portfolio-item{
+        width: 45%;
+    }
 }
 
 @media screen and (max-width: 800px){
     .portfolio-item{
         width: 100%;
+    }
+
+    .name-centered{
+        font-size: 60px;
     }
 }
